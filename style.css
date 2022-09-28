@@ -1,5 +1,6 @@
 /*base */
 body {
+  background-color: antiquewhite;
 }
 
 .wrapper {
@@ -9,6 +10,13 @@ header {
 }
 
 nav {
+}
+
+ul {
+  list-style: none;
+}
+
+li {
 }
 
 main {
@@ -22,6 +30,18 @@ footer {
 }
 
 .nav-item {
+}
+
+.nav-item-size-1 {
+  flex-grow: 1;
+}
+
+.nav-item-size-2 {
+  flex-grow: 2;
+}
+
+.nav-item-size-3 {
+  flex-grow: 3;
 }
 
 .btn-nav {
