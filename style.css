@@ -30,7 +30,7 @@ li {
 }
 
 main {
-  padding-top: 50px;
+  padding-top: calc(50px + 30px);
 }
 
 footer {
@@ -43,6 +43,13 @@ footer {
   top: 0px;
   left: 0px;
   right: 0px;
+}
+
+.topnavbar-bang {
+  height: 30px;
+  width: 100%;
+  background-color: #333;
+  color: burlywood;
 }
 
 .nav-container {
@@ -100,6 +107,14 @@ footer {
 
 /* media */
 @media (max-width: 768px) {
+  main {
+    padding-top: 0px;
+  }
+
+  .topnavbar-bang {
+    display: none;
+  }
+
   .topnavbar {
     position: relative;
   }
