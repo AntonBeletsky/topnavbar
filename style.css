@@ -105,19 +105,19 @@ footer {
   color: #010101;
 }
 
-/* accordion */
-.nav-mobile-accordion {
+/* nav-sub-content */
+.nav-sub-content {
   display: flex;
   flex-direction: column;
   height: 100%;
 }
 
-.nav-mobile-accordion-container {
+.nav-sub-content-container {
   display: flex;
   height: 100%;
 }
 
-.nav-mobile-accordion-content {
+.nav-sub-content-content {
   display: none;
   flex-direction: column;
   height: 100%;
@@ -146,9 +146,10 @@ footer {
     display: none;
   }
 
-  /* accordion */
-  .nav-mobile-accordion-content {
+  /* nav-sub-content*/
+  .nav-sub-content-content {
     display: flex;
+    background-color: darkgreen;
   }
 }
 
