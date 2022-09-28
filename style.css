@@ -117,9 +117,7 @@ footer {
   }
 }
 
-/***************/
 /* CHECKBOX HACK */
-
 input[type="checkbox"]#checkbox_hack_hamburger {
   display: none;
 }
