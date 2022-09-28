@@ -80,6 +80,19 @@ footer {
   background-color: #fafafa;
 }
 
+/* hamburger */
+.hamburger-btn {
+  background-color: black;
+  color: aliceblue;
+  height: 50px;
+  min-width: 100px;
+}
+
+.hamburger-btn:hover {
+  background-color: azure;
+  color: #010101;
+}
+
 /* media */
 @media (max-width: 768px) {
   .nav-container {
@@ -87,7 +100,13 @@ footer {
     flex-direction: column;
   }
 
+  /*
   .nav-container {
+    display: none;
+  }
+  */
+
+  .nav-item {
     display: none;
   }
 }
