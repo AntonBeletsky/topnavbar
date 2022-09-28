@@ -113,11 +113,6 @@ footer {
 }
 
 .nav-sub-content-container {
-  display: flex;
-  height: 100%;
-}
-
-.nav-sub-content-content {
   display: none;
   flex-direction: column;
   height: 100%;
@@ -147,7 +142,7 @@ footer {
   }
 
   /* nav-sub-content*/
-  .nav-sub-content-content {
+  .nav-sub-content-container {
     display: flex;
     background-color: darkgreen;
   }
