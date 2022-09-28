@@ -105,6 +105,24 @@ footer {
   color: #010101;
 }
 
+/* accordion */
+.nav-mobile-accordion {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.nav-mobile-accordion-container {
+  display: flex;
+  height: 100%;
+}
+
+.nav-mobile-accordion-content {
+  display: none;
+  flex-direction: column;
+  height: 100%;
+}
+
 /* media */
 @media (max-width: 768px) {
   main {
@@ -126,6 +144,11 @@ footer {
 
   .nav-item {
     display: none;
+  }
+
+  /* accordion */
+  .nav-mobile-accordion-content {
+    display: flex;
   }
 }
 
