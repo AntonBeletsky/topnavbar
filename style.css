@@ -104,3 +104,14 @@ footer {
     display: none;
   }
 }
+
+/***************/
+/* CHECKBOX HACK */
+
+input[type="checkbox"]#checkbox_hack_hamburger {
+  display: none;
+}
+
+input[type="checkbox"]#checkbox_hack_hamburger:checked ~ .nav-item {
+  display: flex;
+}
