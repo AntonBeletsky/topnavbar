@@ -78,7 +78,7 @@ footer {
 
 .btn-nav {
   height: 50px;
-  min-width: 100px;
+  width: 100%;
 }
 
 .btn-nav:hover {
@@ -111,10 +111,6 @@ footer {
 
   .nav-item {
     display: none;
-  }
-
-  .nav-item .btn-nav {
-    width: 100%;
   }
 }
 
